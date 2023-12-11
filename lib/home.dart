@@ -160,7 +160,7 @@ class _HomeState extends State<Home> {
                                         DateTime(currentYear, currentMonth,
                                             i - datetime! + 1)
                                     ? Colors.orange
-                                    : Colors.red,
+                                    : Colors.redAccent,
                                 shape: CircleBorder(),
                                 padding: EdgeInsets.all(1),
                               ),
@@ -204,7 +204,7 @@ class _HomeState extends State<Home> {
               },
               style: ElevatedButton.styleFrom(
                   elevation: 10,
-                  backgroundColor: Colors.red,
+                  backgroundColor: Colors.redAccent,
                   shape: CircleBorder(),
                   padding: EdgeInsets.all(25)),
               child: Icon(
@@ -215,7 +215,7 @@ class _HomeState extends State<Home> {
               onPressed: showChangeYearWindow,
               style: ElevatedButton.styleFrom(
                   elevation: 10,
-                  backgroundColor: Colors.red,
+                  backgroundColor: Colors.redAccent,
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.all(Radius.circular(20))),
                   padding: EdgeInsets.all(25)),
@@ -233,7 +233,7 @@ class _HomeState extends State<Home> {
               },
               style: ElevatedButton.styleFrom(
                 elevation: 10,
-                backgroundColor: Colors.red,
+                backgroundColor: Colors.redAccent,
                 shape: CircleBorder(),
                 padding: EdgeInsets.all(25),
               ),
